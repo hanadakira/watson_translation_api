@@ -4,8 +4,8 @@ from watson_developer_cloud import LanguageTranslatorV3 as LanguageTranslator
 
 language_translator = LanguageTranslator(
   version='2018-12-03',
-  iam_apikey='JEUE5pCeaa8a9_0rNIwlSpbH8xP0uYVyhiEUGZZNqNag',
-  url='https://gateway-tok.watsonplatform.net/language-translator/api'
+  iam_apikey={},
+  url={}
 )
 # translation = language_translator.translate(
 #     text='Hello',
